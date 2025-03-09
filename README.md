@@ -9,7 +9,7 @@ It focuses on local isolation and does not require esp-idf to be installed globa
 - The required software packages listed [in the official esp-idf get started guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html#step-1-install-prerequisites)
 
 ```sh
-git clone --recursive https://github.com/bjoerge/esp-idf-clion-cmake
+git clone --recursive --shallow-submodules https://github.com/bjoerge/esp-idf-clion-cmake
 cd esp-idf-clion-cmake
 direnv allow
 sh ./deps/esp-idf/install.sh
